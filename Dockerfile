@@ -17,4 +17,4 @@ USER navel-hub
 
 ENTRYPOINT ["hypnotoad"]
 
-CMD ["/opt/navel-hub/script/navel-hub"]
+CMD ["-f", "/opt/navel-hub/script/navel-hub"]
