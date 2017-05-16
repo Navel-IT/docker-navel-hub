@@ -10,7 +10,7 @@ ADD https://github.com/navel-it/navel-installation-scripts/archive/master.tar.gz
 
 RUN \
     tar xvzf master.tar.gz && \
-    bash navel-installation-scripts-master/navel-hub.sh -12 master && \
+    bash navel-installation-scripts-master/navel-hub.sh -1 master && \
     rm -Rf *
 
 USER navel-hub
